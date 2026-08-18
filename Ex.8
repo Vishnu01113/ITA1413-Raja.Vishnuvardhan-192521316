@@ -1,0 +1,30 @@
+(i) Detect versions of services running
+$ nmap -sV 192.168.1.10
+Starting Nmap
+Nmap scan report for 192.168.1.10
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH
+80/tcp   open  http    Apache httpd
+443/tcp  open  https   Apache httpd
+Nmap done
+
+(ii) Aggressive scan
+$ nmap -A 192.168.1.10
+Starting Nmap
+Nmap scan report for 192.168.1.10
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+OS detection: completed
+Service detection: completed
+Nmap done
+
+(iii) Detect operating system
+$ sudo nmap -O 192.168.1.10
+Starting Nmap
+Nmap scan report for 192.168.1.10
+Device type: general purpose
+Running: Linux
+OS details: Linux
+Nmap done
