@@ -1,0 +1,15 @@
+$ tshark --version
+TShark (Wireshark) 4.x
+Copyright ...
+
+$ tshark -D
+1. eth0
+2. wlan0
+3. lo
+
+$ tshark -i lo -c 3
+Capturing on 'lo'
+    1   0.000000  127.0.0.1  127.0.0.1  TCP  ...
+    2   0.001000  127.0.0.1  127.0.0.1  TCP  ...
+    3   0.002000  127.0.0.1  127.0.0.1  TCP  ...
+3 packets captured
