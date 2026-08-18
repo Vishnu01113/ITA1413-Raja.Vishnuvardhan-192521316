@@ -1,0 +1,9 @@
+$ hydra -h
+Hydra v9.x
+Syntax: hydra [options] target service
+Hydra supports password auditing against authorized services.
+
+# Example output from an authorized lab test:
+[DATA] attacking ssh://lab-host
+[STATUS] testing credentials
+[STATUS] audit completed
