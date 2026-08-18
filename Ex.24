@@ -1,0 +1,23 @@
+$ nmap -T2 192.168.1.10
+Starting Nmap
+Host is up.
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+Nmap done
+
+$ nmap -T3 192.168.1.10
+Starting Nmap
+Host is up.
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+Nmap done
+
+$ nmap -T4 192.168.1.10
+Starting Nmap
+Host is up.
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+Nmap done
