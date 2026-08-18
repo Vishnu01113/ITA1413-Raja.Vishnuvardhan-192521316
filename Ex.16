@@ -1,0 +1,13 @@
+$ whois example.com
+Domain Name: EXAMPLE.COM
+Registrar: IANA
+Creation Date: 1995-08-14
+Registry Expiry Date: -
+Name Server: A.IANA-SERVERS.NET
+Name Server: B.IANA-SERVERS.NET
+
+$ whois example.com | head
+Domain Name: EXAMPLE.COM
+Registrar: IANA
+Creation Date: 1995-08-14
+Registry Domain ID: 2336799_DOMAIN_COM-VRSN
