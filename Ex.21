@@ -1,0 +1,10 @@
+C:\> type hello.bat
+@echo off
+echo Hello from batch file!
+echo Current directory:
+cd
+
+C:\> hello.bat
+Hello from batch file!
+Current directory:
+C:\Users\User
