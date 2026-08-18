@@ -1,6 +1,5 @@
 tcp
 
-# Example captured packet:
 No.     Source          Destination       Protocol   Info
 1       192.168.1.100   192.168.1.1       TCP        SYN
 2       192.168.1.1     192.168.1.100     TCP        SYN, ACK
