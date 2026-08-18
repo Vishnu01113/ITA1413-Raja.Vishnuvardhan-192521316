@@ -1,0 +1,15 @@
+$ theHarvester --help
+*******************************************************************
+* theHarvester - OSINT gathering tool
+*******************************************************************
+Usage:
+  theHarvester -d <domain> -b <source>
+
+Options:
+  -d, --domain      Domain to search
+  -b, --source      Data source
+  -h, --help        Show help information
+  -v, --version     Show version
+
+$ theHarvester --version
+theHarvester version 4.x
