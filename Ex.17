@@ -1,0 +1,28 @@
+C:\> ping 8.8.8.8
+
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=20ms TTL=117
+Reply from 8.8.8.8: bytes=32 time=19ms TTL=117
+
+C:\> tracert 8.8.8.8
+
+Tracing route to 8.8.8.8
+  1    <1 ms    <1 ms    <1 ms  192.168.1.1
+  2     5 ms     5 ms     5 ms  ISP-Gateway
+  3    20 ms    19 ms    20 ms  8.8.8.8
+
+C:\> ipconfig
+
+Windows IP Configuration
+
+Ethernet adapter Ethernet:
+   IPv4 Address. . . . . . : 192.168.1.100
+   Subnet Mask . . . . . . : 255.255.255.0
+   Default Gateway . . . . : 192.168.1.1
+
+C:\> netstat -ano
+
+Active Connections
+
+  Proto  Local Address       Foreign Address      State
+  TCP    192.168.1.100:1234  192.168.1.10:80      ESTABLISHED
