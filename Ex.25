@@ -1,0 +1,40 @@
+(i) Read a number and find its square
+
+$ cat square.sh
+#!/bin/bash
+echo "Enter a number:"
+read n
+square=$((n * n))
+echo "Square = $square"
+
+$ chmod +x square.sh
+$ ./square.sh
+Enter a number:
+7
+Square = 49
+
+
+(ii) Find the biggest of three numbers
+
+$ cat biggest.sh
+#!/bin/bash
+echo "Enter three numbers:"
+read a b c
+
+big=$a
+
+if [ "$b" -gt "$big" ]; then
+    big=$b
+fi
+
+if [ "$c" -gt "$big" ]; then
+    big=$c
+fi
+
+echo "Biggest = $big"
+
+$ chmod +x biggest.sh
+$ ./biggest.sh
+Enter three numbers:
+12 45 27
+Biggest = 45
