@@ -1,0 +1,3 @@
+$ msfvenom --help
+MsfVenom - a Metasploit standalone payload generator.
+Usage: msfvenom [options] <var=val>
