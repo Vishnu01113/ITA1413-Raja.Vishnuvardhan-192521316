@@ -1,0 +1,14 @@
+$ nikto -h http://192.168.1.10
+- Nikto v2.x
+---------------------------------------------------------------------------
++ Target IP:          192.168.1.10
++ Target Hostname:    lab-host
++ Target Port:        80
++ Start Time:         10:35:00
+---------------------------------------------------------------------------
++ Server: Apache
++ /: HTTP server header found
++ /robots.txt: robots.txt found
++ No critical vulnerabilities identified in this sample scan.
+---------------------------------------------------------------------------
++ End Time:            10:35:10
